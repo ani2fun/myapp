@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -jar target/hellodropwizard-1.0-SNAPSHOT.jar server config.yaml && java $JAVA_OPTS -Ddw.server.connector.port=$PORT -jar target/hellodropwizard-1.0-SNAPSHOT.jar server config.yaml
+web: java $JAVA_OPTS -Ddw.server.connector.port=$PORT -jar target/hellodropwizard-1.0-SNAPSHOT.jar server config.yaml
