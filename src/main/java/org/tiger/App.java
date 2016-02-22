@@ -26,7 +26,7 @@ public class App extends Application<AppConfiguration> {
     @Override
     public void run(AppConfiguration c, Environment e) throws Exception {
 
-
+        e.jersey().register(new AppResource());
 
     }
 }
