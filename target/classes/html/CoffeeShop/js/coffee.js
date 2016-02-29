@@ -10,7 +10,7 @@ coffeeApp.factory('CoffeeOrder', function ($resource) {
         {id: '@coffeeShopId'}, {});
 });
 
-coffeeApp.controller('CoffeeShopController', 'CoffeeShopLocator', function ($scope, $window, CoffeeShopLocator, LocalCoffeeShop) {
+/*coffeeApp.controller('CoffeeShopController', 'CoffeeShopLocator', function ($scope, $window, CoffeeShopLocator) {
     $scope.findCoffeeShopNearestToMe = function () {
         window.navigator.geolocation.getCurrentPosition(function (position) {
             CoffeeShopLocator.get({latitude: position.coords.latitude, longitude: position.coords.longitude}).$promise
@@ -27,7 +27,7 @@ coffeeApp.controller('CoffeeShopController', 'CoffeeShopLocator', function ($sco
         });
     };
     $scope.findCoffeeShopNearestToMe();
-});
+});*/
 
 coffeeApp.controller('DrinksController', 'CoffeeOrder', function ($scope, $filter, CoffeeOrder) {
     //this could come from the coffee shop itself

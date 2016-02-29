@@ -1,6 +1,6 @@
 var app = angular.module('MyCoffeeApp', ['ngResource']);
 
-app.controller('OrderController', function ($scope,$resource) {
+app.controller('OrderController', function ($scope, $resource) {
 
     $scope.types = [{name: 'Americano', family: 'Coffee'},
         {name: 'Latte', family: 'Coffee'},
@@ -14,7 +14,7 @@ app.controller('OrderController', function ($scope,$resource) {
 
         $scope.drink.coffeeShopId = 1;
 
-        var CoffeeOrder = $resource('/service/mycoffeeshop/myorder');
+        var CoffeeOrder = $resource('/service/mycoffeeshop/order');
 
         CoffeeOrder.save($scope.drink);
     }
