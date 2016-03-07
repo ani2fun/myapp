@@ -1,7 +1,7 @@
 'use strict';
 
 //var baseURL = "http://localhost:8080/service/";
-var baseURL = "http://localhost:8080/service/";
+var baseURL = "https://quiet-mesa-68785.herokuapp.com/service/";
 
 angular.module('confusionApp')
     .controller('MenuController', ['$scope', 'menuFactory','$http', function ($scope, menuFactory,$http) {
