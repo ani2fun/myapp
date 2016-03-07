@@ -9,11 +9,6 @@ server:
 
 assetsPath: /html/
 
-database:
-       driverClass: com.mysql.jdbc.Driver
-       user: phonebookuser
-       password: phobnebookpassword
-       url: jdbc:mysql://localhost/phonebook
 
 # use the simple server factory if you only want to run on a single port
 # HEROKU NOTE - the port gets be overridden with the Heroku $PORT in the Procfile

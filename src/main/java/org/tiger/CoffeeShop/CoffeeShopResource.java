@@ -6,8 +6,6 @@ import com.mongodb.MongoClient;
 import com.sun.org.apache.xpath.internal.operations.Or;
 import org.mongodb.morphia.Datastore;
 import org.mongodb.morphia.Morphia;
-import org.mongojack.JacksonDBCollection;
-import org.mongojack.WriteResult;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
@@ -41,23 +39,13 @@ public class CoffeeShopResource {
         return Response.ok("Dummy get").build();
     }
 
-    @POST
-    @Path("{id}/order/")
+    @POST()
+    @Path("order")
     @Consumes(MediaType.APPLICATION_JSON)
-    public Response doSomeAction(@PathParam("id") long coffeeShopId, Order order) {
-        /*order.setCoffeeShopId(coffeeShopId);
-        DBCollection collectionOrders = database.getCollection("orders");
-        JacksonDBCollection<Order, String> collection = JacksonDBCollection.wrap(collectionOrders, Order.class, String.class);
-        WriteResult<Order,String>  writeResult = collection.insert(order);
-
-        if(writeResult ==null){
-            return Response.serverError().build();
-        }
-
-        order.setId(writeResult.getSavedId());*/
-
-
-
+   // public Response saveOrder(@PathParam("id") long coffeeShopId, Order order) {
+    public Response saveOrder( Order order) {
+            //order.setCoffeeShopId(coffeeShopId);
+            datastore.save(order);
 
         return Response.created(URI.create(order.getId())).entity(order).build();
     }

@@ -1,7 +1,7 @@
 package org.tiger.CoffeeShop;
 
-import org.mongojack.Id;
-import org.mongojack.ObjectId;
+
+import org.mongodb.morphia.annotations.Id;
 
 /**
  * Created by aniket on 3/2/16.

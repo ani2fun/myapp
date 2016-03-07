@@ -13,7 +13,11 @@
 
 <div class="container" ng-controller="OrderController">
 
+
+    <alert ng-repeat="message in messages" type="message.type" close="closeAlert($index)">{{message.msg}}</alert>
+
     <form ng-submit="giveMeCoffee()">
+
         <div class="form-group">
             <label>Drink</label>
             <select ng-model="drink.type" ng-options="type.name for type in types | orderBy:'name'"
@@ -31,6 +35,7 @@
         </div>
 
         <div class="form-group">
+
             <input type="submit" value="Give me Cofffee !!!" class="btn btn-default btn-lg"/>
         </div>
     </form>
@@ -41,8 +46,10 @@
 
 
 <script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
-<script type="text/javascript" src="bower_components/angular-resource/angular-resource.min.js"> </script>
 <script type="text/javascript" src="scripts/coffeeApp.js"></script>
+<script type="text/javascript" src="bower_components/angular-resource/angular-resource.min.js"> </script>
+<!--<script type="text/javascript" src="bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"> </script>-->
+<script type="text/javascript" src="scripts/ui-bootstrap-tpls-0.10.0.min.js"> </script>
 
 </body>
 </html>
