@@ -57,6 +57,8 @@ public class App extends Application<AppConfiguration> {
         environment.jersey().register(new PromotionResource(mongoClient,dbName));
         environment.jersey().register(new LeadershipResource(mongoClient,dbName));
 
+        environment.jersey().register(new TestResource());
+
 
     }
 }

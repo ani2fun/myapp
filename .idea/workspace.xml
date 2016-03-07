@@ -2,49 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f10e1ab5-20da-4127-86c4-06327d37e770" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/tiger/App.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/html/CoffeeShop/scripts/coffee.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/html/CoffeeShop/scripts/coffeeController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/tiger/CoffeeShop/MongoClientManager.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/tiger/CoffeeShop/MongoClientManager.java" afterPath="$PROJECT_DIR$/src/main/java/org/tiger/MongoClientManager.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/target/classes/html/Angular2App/app/angular2/node_modules/openurl/.idea/.name" afterPath="$PROJECT_DIR$/target/classes/html/Angular2Learning/app/angular2/node_modules/openurl/.idea/.name" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/target/classes/html/Angular2App/app/angular2/node_modules/openurl/.idea/encodings.xml" afterPath="$PROJECT_DIR$/target/classes/html/Angular2Learning/app/angular2/node_modules/openurl/.idea/encodings.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/target/classes/html/Angular2App/app/angular2/node_modules/openurl/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/target/classes/html/Angular2Learning/app/angular2/node_modules/openurl/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/target/classes/html/Angular2App/app/angular2/node_modules/openurl/.idea/inspectionProfiles/profiles_settings.xml" afterPath="$PROJECT_DIR$/target/classes/html/Angular2Learning/app/angular2/node_modules/openurl/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/target/classes/html/Angular2App/app/angular2/node_modules/openurl/.idea/misc.xml" afterPath="$PROJECT_DIR$/target/classes/html/Angular2Learning/app/angular2/node_modules/openurl/.idea/misc.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/target/classes/html/Angular2App/app/angular2/node_modules/openurl/.idea/modules.xml" afterPath="$PROJECT_DIR$/target/classes/html/Angular2Learning/app/angular2/node_modules/openurl/.idea/modules.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/target/classes/html/Angular2App/app/angular2/node_modules/openurl/.idea/openurl.iml" afterPath="$PROJECT_DIR$/target/classes/html/Angular2Learning/app/angular2/node_modules/openurl/.idea/openurl.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/target/classes/html/Angular2App/app/angular2/node_modules/openurl/.idea/scopes/scope_settings.xml" afterPath="$PROJECT_DIR$/target/classes/html/Angular2Learning/app/angular2/node_modules/openurl/.idea/scopes/scope_settings.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/target/classes/html/Angular2App/app/angular2/node_modules/openurl/.idea/vcs.xml" afterPath="$PROJECT_DIR$/target/classes/html/Angular2Learning/app/angular2/node_modules/openurl/.idea/vcs.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/target/classes/html/Angular2App/app/angular2/node_modules/openurl/.idea/workspace.xml" afterPath="$PROJECT_DIR$/target/classes/html/Angular2Learning/app/angular2/node_modules/openurl/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/tiger/App.class" afterPath="$PROJECT_DIR$/target/classes/org/tiger/App.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/tiger/CoffeeShop/CoffeeShopResource.class" afterPath="$PROJECT_DIR$/target/classes/org/tiger/CoffeeShop/CoffeeShopResource.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/tiger/RestoAppDemo/Feedback/FeedbackResource.class" afterPath="$PROJECT_DIR$/target/classes/org/tiger/RestoAppDemo/Feedback/FeedbackResource.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/tiger/RestoAppDemo/Menu/DishResource.class" afterPath="$PROJECT_DIR$/target/classes/org/tiger/RestoAppDemo/Menu/DishResource.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/tiger/RestoAppDemo/leadership/LeadershipResource.class" afterPath="$PROJECT_DIR$/target/classes/org/tiger/RestoAppDemo/leadership/LeadershipResource.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/tiger/RestoAppDemo/promotions/PromotionResource.class" afterPath="$PROJECT_DIR$/target/classes/org/tiger/RestoAppDemo/promotions/PromotionResource.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/PopulateDatabase.groovy" afterPath="$PROJECT_DIR$/scripts/PopulateDatabase.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/tiger/AppConfiguration.java" afterPath="$PROJECT_DIR$/src/main/java/org/tiger/AppConfiguration.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/tiger/CoffeeShop/CoffeeShopResource.java" afterPath="$PROJECT_DIR$/src/main/java/org/tiger/CoffeeShop/CoffeeShopResource.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/tiger/CoffeeShop/DrinkType.java" afterPath="$PROJECT_DIR$/src/main/java/org/tiger/CoffeeShop/DrinkType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/tiger/CoffeeShop/Order.java" afterPath="$PROJECT_DIR$/src/main/java/org/tiger/CoffeeShop/Order.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/tiger/RestoAppDemo/Feedback/Feedback.java" afterPath="$PROJECT_DIR$/src/main/java/org/tiger/RestoAppDemo/Feedback/Feedback.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/tiger/RestoAppDemo/Feedback/FeedbackResource.java" afterPath="$PROJECT_DIR$/src/main/java/org/tiger/RestoAppDemo/Feedback/FeedbackResource.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/tiger/RestoAppDemo/Feedback/Telephone.java" afterPath="$PROJECT_DIR$/src/main/java/org/tiger/RestoAppDemo/Feedback/Telephone.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/tiger/RestoAppDemo/HelloWorld/HelloWorldApp.java" afterPath="$PROJECT_DIR$/src/main/java/org/tiger/RestoAppDemo/HelloWorld/HelloWorldApp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/tiger/RestoAppDemo/HelloWorld/MorphiaService.java" afterPath="$PROJECT_DIR$/src/main/java/org/tiger/RestoAppDemo/HelloWorld/MorphiaService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/tiger/RestoAppDemo/HelloWorld/User.java" afterPath="$PROJECT_DIR$/src/main/java/org/tiger/RestoAppDemo/HelloWorld/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/tiger/RestoAppDemo/HelloWorld/UserDAO.java" afterPath="$PROJECT_DIR$/src/main/java/org/tiger/RestoAppDemo/HelloWorld/UserDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/tiger/RestoAppDemo/HelloWorld/UserDAOImpl.java" afterPath="$PROJECT_DIR$/src/main/java/org/tiger/RestoAppDemo/HelloWorld/UserDAOImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/tiger/RestoAppDemo/HelloWorld/test.java" afterPath="$PROJECT_DIR$/src/main/java/org/tiger/RestoAppDemo/HelloWorld/test.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/tiger/RestoAppDemo/Menu/Dish.java" afterPath="$PROJECT_DIR$/src/main/java/org/tiger/RestoAppDemo/Menu/Dish.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/tiger/RestoAppDemo/Menu/DishComment.java" afterPath="$PROJECT_DIR$/src/main/java/org/tiger/RestoAppDemo/Menu/DishComment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/tiger/RestoAppDemo/Menu/DishResource.java" afterPath="$PROJECT_DIR$/src/main/java/org/tiger/RestoAppDemo/Menu/DishResource.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/tiger/RestoAppDemo/leadership/LeadershipResource.java" afterPath="$PROJECT_DIR$/src/main/java/org/tiger/RestoAppDemo/leadership/LeadershipResource.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/tiger/RestoAppDemo/promotions/PromotionResource.java" afterPath="$PROJECT_DIR$/src/main/java/org/tiger/RestoAppDemo/promotions/PromotionResource.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/html/restoDemo/app/scripts/controllers.js" afterPath="$PROJECT_DIR$/src/main/resources/html/restoDemo/app/scripts/controllers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/tiger/TestResource.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/tiger/App.java" afterPath="$PROJECT_DIR$/src/main/java/org/tiger/App.java" />
     </list>
     <ignored path="hellodropwizard.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -67,12 +26,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="App.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/tiger/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.6637168">
+              <caret line="59" column="58" selection-start-line="59" selection-start-column="58" selection-end-line="59" selection-end-column="58" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestResource.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/tiger/TestResource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -117,10 +88,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="controllers.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="controllers.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/html/restoDemo/app/scripts/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.09955752">
+            <state vertical-scroll-proportion="0.0">
               <caret line="3" column="47" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
               <folding>
                 <element signature="e#2116#2625#0" expanded="false" />
@@ -191,7 +162,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/org/tiger/PhoneBookDemo/resources/ContactResource.java" />
         <option value="$PROJECT_DIR$/src/main/resources/html/CoffeeShop/scripts/coffee.js" />
         <option value="$PROJECT_DIR$/src/main/resources/html/CoffeeShop/scripts/controllers.js" />
         <option value="$PROJECT_DIR$/src/main/resources/html/CoffeeShop/scripts/coffeeController.js" />
@@ -240,8 +210,9 @@
         <option value="$PROJECT_DIR$/src/main/java/org/tiger/RestoAppDemo/Menu/DishResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/tiger/RestoAppDemo/promotions/PromotionResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/tiger/RestoAppDemo/leadership/LeadershipResource.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/tiger/App.java" />
         <option value="$PROJECT_DIR$/src/main/resources/html/restoDemo/app/scripts/controllers.js" />
+        <option value="$PROJECT_DIR$/src/main/java/org/tiger/TestResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/tiger/App.java" />
       </list>
     </option>
   </component>
@@ -539,202 +510,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="tiger" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hellodropwizard" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hellodropwizard" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tiger" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RestoAppDemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="promotions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hellodropwizard" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hellodropwizard" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tiger" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RestoAppDemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Menu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hellodropwizard" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hellodropwizard" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tiger" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RestoAppDemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="leadership" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hellodropwizard" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hellodropwizard" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tiger" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RestoAppDemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hellodropwizard" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hellodropwizard" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tiger" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RestoAppDemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Feedback" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hellodropwizard" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hellodropwizard" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tiger" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CoffeeShop" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1402,12 +1177,12 @@
       <workItem from="1457005167602" duration="97000" />
       <workItem from="1457005542563" duration="365000" />
       <workItem from="1457006521254" duration="51038000" />
-      <workItem from="1457352670744" duration="8090000" />
+      <workItem from="1457352670744" duration="8364000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="142873000" />
+    <option name="totallyTimeSpent" value="143147000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1810,14 +1585,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/tiger/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/html/CoffeeShop/scripts/coffeeApp.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1844,13 +1611,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/html/restoDemo/app/scripts/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09955752">
+        <state vertical-scroll-proportion="0.0">
           <caret line="3" column="47" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
           <folding>
             <element signature="e#2116#2625#0" expanded="false" />
             <element signature="e#2696#2978#0" expanded="false" />
             <element signature="e#3066#4022#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/tiger/TestResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/tiger/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6637168">
+          <caret line="59" column="58" selection-start-line="59" selection-start-column="58" selection-end-line="59" selection-end-column="58" />
+          <folding />
         </state>
       </provider>
     </entry>
