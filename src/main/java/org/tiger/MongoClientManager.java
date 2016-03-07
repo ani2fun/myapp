@@ -1,4 +1,4 @@
-package org.tiger.CoffeeShop;
+package org.tiger;
 
 import com.mongodb.MongoClient;
 import io.dropwizard.lifecycle.Managed;

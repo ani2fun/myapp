@@ -2,7 +2,7 @@ import com.mongodb.BasicDBObject
 import com.mongodb.MongoClient
 
 def mongoClient = new MongoClient();
-def collection = mongoClient.getDB("AniketCoffeeShop").getCollection("coffeeshop")
+def collection = mongoClient.getDB("mydb").getCollection("coffeeshop")
 collection.drop()
 
 def xmlSlurper = new XmlSlurper().parse(new File('resources/all-coffee-shops.xml'))

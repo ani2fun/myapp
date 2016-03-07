@@ -1,5 +1,6 @@
 'use strict';
 
+//var baseURL = "http://localhost:8080/service/";
 var baseURL = "http://localhost:8080/service/";
 
 angular.module('confusionApp')

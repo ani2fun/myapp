@@ -1,6 +1,7 @@
 package org.tiger.RestoAppDemo.Feedback;
 
 import com.mongodb.MongoClient;
+import com.mongodb.MongoClientURI;
 import org.mongodb.morphia.Datastore;
 import org.mongodb.morphia.Morphia;
 import org.slf4j.Logger;
@@ -24,8 +25,22 @@ public class FeedbackResource {
 
     private Datastore datastore;
 
-    public FeedbackResource(final MongoClient mongoClient) {
-        this.datastore = new Morphia().createDatastore(mongoClient, "restoDemo");
+    public FeedbackResource(final MongoClient mongoClient, final String dbName) {
+
+        this.datastore = new Morphia().createDatastore(mongoClient, dbName);
+
+        /*
+
+
+            Mongo m = new Mongo(mongolabUri);
+            mongoDB = m.getDB(mongolabUri.getDatabase());
+         if ((mongoClientURI.getUsername() != null) && (mongoClientURI.getPassword() != null)) {
+            mongoDB.authenticate(mongoClientURI.getUsername(), mongoClientURI.getPassword());
+        }
+*/
+
+
+
     }
 
     @POST()

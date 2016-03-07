@@ -30,7 +30,7 @@ public class CoffeeShopResource {
     private Datastore datastore;
 
     public CoffeeShopResource(final MongoClient mongoClient) {
-        this.datastore = new Morphia().createDatastore(mongoClient,"Cafelito");
+        this.datastore = new Morphia().createDatastore(mongoClient,"mydb");
     }
 
     @GET

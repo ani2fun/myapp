@@ -21,9 +21,9 @@ public class PromotionResource {
 
     private Datastore datastore;
 
-    public PromotionResource(final MongoClient mongoClient4) {
+    public PromotionResource(final MongoClient mongoClient4, final String dbName) {
 
-        this.datastore = new Morphia().createDatastore(mongoClient4,"restoDemo");
+        this.datastore = new Morphia().createDatastore(mongoClient4,dbName);
 
     }
 

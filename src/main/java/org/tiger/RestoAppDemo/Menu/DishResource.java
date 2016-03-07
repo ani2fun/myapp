@@ -23,10 +23,10 @@ import java.util.List;
 @Consumes(MediaType.APPLICATION_JSON)
 public class DishResource {
 
-   final private Datastore datastore;
+   private Datastore datastore;
 
-    public DishResource(final MongoClient mongoClient) {
-        this.datastore = new Morphia().createDatastore(mongoClient, "restoDemo");
+    public DishResource(final MongoClient mongoClient, final String dbName) {
+        this.datastore = new Morphia().createDatastore(mongoClient,dbName);
     }
 
     @GET

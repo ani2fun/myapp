@@ -21,9 +21,9 @@ public class LeadershipResource {
 
     private Datastore datastore;
 
-    public LeadershipResource(final MongoClient mongoClient){
+    public LeadershipResource(final MongoClient mongoClient, final String dbName){
 
-        this.datastore = new Morphia().createDatastore(mongoClient,"restoDemo");
+        this.datastore = new Morphia().createDatastore(mongoClient,dbName);
     }
 
 
