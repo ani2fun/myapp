@@ -19,7 +19,7 @@ angular.module('confusionApp')
                 $scope.showMenu = true;
             },
             function (response) {
-                $scope.message = "Error: " + response.status + " " + response.statusText;
+                $scope.message = "Error:(db entry might not present, plz check db connection)" + response.status + " " + response.statusText;
             });
 
 
@@ -63,7 +63,7 @@ angular.module('confusionApp')
                     $scope.showDish = true;
                 },
                 function (response) {
-                    $scope.message = "Error: " + response.status + " " + response.statusText;
+                    $scope.message = "Error:(db entry might not present, plz check db connection)" + response.status + " " + response.statusText;
                 }
             );
 
@@ -140,7 +140,7 @@ angular.module('confusionApp')
                     $scope.showLeader = true;
                 },
                 function (response) {
-                    $scope.message = "Error: " + response.status + " " + response.statusText;
+                    $scope.message = "Error:(db entry might not present, plz check db connection) " + response.status + " " + response.statusText;
                 });
 
         $scope.showPromotion = false;
@@ -152,7 +152,7 @@ angular.module('confusionApp')
                     $scope.showPromotion = true;
                 },
                 function (response) {
-                    $scope.message = "Error: (database access error) " + response.status + " " + response.statusText;
+                    $scope.message = "Error:(db entry might not present, plz check db connection) " + response.status + " " + response.statusText;
                 });
 
 
@@ -166,7 +166,7 @@ angular.module('confusionApp')
                     $scope.showDish = true;
                 },
                 function (response) {
-                    $scope.message = "Error: " + response.status + " " + response.statusText;
+                    $scope.message = "Error:(db entry might not present, plz check db connection) " + response.status + " " + response.statusText;
                 }
             );
 
