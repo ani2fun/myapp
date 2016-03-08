@@ -29,18 +29,6 @@ public class FeedbackResource {
 
         this.datastore = new Morphia().createDatastore(mongoClient, dbName);
 
-        /*
-
-
-            Mongo m = new Mongo(mongolabUri);
-            mongoDB = m.getDB(mongolabUri.getDatabase());
-         if ((mongoClientURI.getUsername() != null) && (mongoClientURI.getPassword() != null)) {
-            mongoDB.authenticate(mongoClientURI.getUsername(), mongoClientURI.getPassword());
-        }
-*/
-
-
-
     }
 
     @POST()

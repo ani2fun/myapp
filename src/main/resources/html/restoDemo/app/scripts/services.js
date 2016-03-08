@@ -1,5 +1,7 @@
 'use strict';
 
+//var baseURL = "http://localhost:8080/service/";
+//https://quiet-mesa-68785.herokuapp.com/service/
 angular.module('confusionApp')
         .constant("baseURL","https://quiet-mesa-68785.herokuapp.com/service/")
         .service('menuFactory', ['$resource','baseURL', function($resource,baseURL) {

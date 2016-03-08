@@ -152,7 +152,7 @@ angular.module('confusionApp')
                     $scope.showPromotion = true;
                 },
                 function (response) {
-                    $scope.message = "Error: " + response.status + " " + response.statusText;
+                    $scope.message = "Error: (database access error) " + response.status + " " + response.statusText;
                 });
 
 

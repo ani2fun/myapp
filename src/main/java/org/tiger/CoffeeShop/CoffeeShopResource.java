@@ -29,8 +29,8 @@ public class CoffeeShopResource {
 
     private Datastore datastore;
 
-    public CoffeeShopResource(final MongoClient mongoClient) {
-        this.datastore = new Morphia().createDatastore(mongoClient,"mydb");
+    public CoffeeShopResource(final MongoClient mongoClient,final String dbName) {
+        this.datastore = new Morphia().createDatastore(mongoClient,dbName);
     }
 
     @GET
