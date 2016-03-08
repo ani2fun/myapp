@@ -35,7 +35,7 @@
             <div class="col-xs-4">
                 <p style="padding:20px;">
                 <label for="sortOrderText">Sort by:</label>
-                <input type="text" id="sortOrderText" ng-model="sortOrder"></p>                
+                <input type="text" id="sortOrderText" ng-model="sortOrder"> <span> e.g by "rating, author or date</span> </p>
             </div>
             <div class="col-xs-9 col-xs-offset-1" ng-repeat="comment in dish.comments | orderBy:sortOrder">
                 <blockquote>
