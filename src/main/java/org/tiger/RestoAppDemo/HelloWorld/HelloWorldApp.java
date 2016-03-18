@@ -54,7 +54,7 @@ public class HelloWorldApp {
 
 
         System.out.println("Retrieve by firstName lastName ");
-        User fetchedUser = userDAO.getByFirstNameLastName("Alex", "Bar");
+        User fetchedUser = userDAO.getByFirstNameLastName("ANiket", "foo");
         System.out.println("firstName " + fetchedUser.getFirstName());
         System.out.println("lastName " + fetchedUser.getLastName());
         System.out.println("birthDate " + fetchedUser.getBirthDate().toGMTString());
